@@ -1,6 +1,10 @@
 xivo-auth-client
 ================
 
+## Deprecated
+
+The xivo-auth-client is now deprecated in favor of the [wazo-auth-client](https://github.com/wazo-pbx/wazo-auth-client)
+
 A python library to connect to xivo-auth. HTTPS is used by default. Certificates
 are verified by default: if you want to omit the check or use a different CA
 bundle, use the verify_certificate argument when instantiating the client.
